@@ -13,7 +13,7 @@ body {
   background-repeat: no-repeat;
 }
 .main-container {
-  display: grid;
+  display:grid;
   align-items: center;
   justify-content: center;
   grid-template-columns: 50% 50%;
@@ -66,7 +66,7 @@ body {
 }
 .error{
   color: red;
-  display: ;
+
 }
 .tag{
   font-size: 12px;
@@ -140,10 +140,7 @@ input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-::-webkit-input-placeholder,
-.c-input {
-  color: ;
-}
+
 span {
   color: white;
 }
@@ -167,4 +164,51 @@ span {
   top: 43%;
   left: 40%;
   color: white;
+}
+
+
+@media (max-width: 600px) {
+  body{
+    background-image: url(images/bg-main-mobile.png);
+    background-size: 600px 220px;
+    background-repeat: no-repeat;
+  
+ 
+  }
+  .main-container {
+   display:;
+   flex-direction:;
+     
+  }
+
+  .cards {
+    position: relative;
+    top: 80%;
+    left: 30%;
+  }
+  .cards img {
+    height: 8.8em;
+  }
+  .cards .card-back {
+    position: absolute;
+    left: 10%;
+    bottom:65%;
+    margin-top: 1.7em;
+    z-index: -1;
+  }
+  .card-front {
+    position: relative;
+    top: 30%;
+    left: 0;
+  }
+  .card-front .logo {
+    height: 40px;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+  }
+  
+  .form-wrapper{
+    display:none;
+  }
 }
