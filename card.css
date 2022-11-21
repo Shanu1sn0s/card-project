@@ -1,0 +1,170 @@
+:root {
+  --form-bg-color: #f4f4f4;
+  --input-field-active-gradient: hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+  --red-error-border-color: hsl(0, 100%, 66%);
+  --violet-dark: hsl(278, 68%, 11%);
+  --dark-grayish-violet: hsl(270, 3%, 87%);
+  --light-grayish-violet: hsl(279, 6%, 55%);
+  --desktop-width: 1440px;
+  --mobile-width: 375px;
+}
+body {
+  background-image: url(images/bg-main-desktop.png);
+  background-repeat: no-repeat;
+}
+.main-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 50% 50%;
+  margin: 0 auto;
+}
+.form-wrapper {
+  /* display: none; */
+  padding: 50px;
+  max-width: 350px;
+  width: 100%;
+  z-index: 99;
+  position: relative;
+  top: 30%;
+  left: 20%;
+}
+.thank-you-note{
+  display: none;
+  padding: 50px;
+  max-width: 350px;
+  width: 100%;
+  z-index: 99;
+  position: relative;
+  top: 30%;
+  left: 20%;
+  text-align: center;
+}
+.error{
+  visibility: hidden;
+}
+.write-up {
+  display: flex;
+  gap: 120px;
+  width: 100%;
+}
+.date {
+  display: grid;
+  grid-template-columns: 22% 22% 38%;
+  gap: 2.5rem;  
+  margin-right:30px ;  
+}
+.date p{
+  font-size: 12px;
+}
+
+.date input {
+  width: 100%;
+}
+.last3{
+  width: 8em;
+}
+.error{
+  color: red;
+  display: ;
+}
+.tag{
+  font-size: 12px;
+  margin-bottom: 20px;
+  
+}
+.write-up p{
+  margin-bottom: -8px;
+}
+.confirm {
+  color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px auto;
+  width: 100%;
+  border-radius: 4px;
+  background-color: var(--violet-dark);
+  cursor: pointer;
+}
+input {
+  outline: none;
+  width: 100%;
+  border: none;
+  background: transparent;
+  border: 1px solid var(--dark-grayish-violet);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.cards {
+  position: relative;
+  top: 42%;
+  left: 30%;
+}
+.cards img {
+  height: 12em;
+}
+.cards .card-back {
+  position: inherit;
+  left: 10%;
+  margin-top: 1.7em;
+}
+.card-front {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.card-front .logo {
+  height: 40px;
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+.c-input {
+  position: absolute;
+  left: 2.6em;
+  top: 4.5em;
+  outline: none;
+  background: transparent;
+  border: none;
+  font-size: 25px;
+}
+input[type="number"] {
+  outline: none;
+  -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+::-webkit-input-placeholder,
+.c-input {
+  color: ;
+}
+span {
+  color: white;
+}
+.c-name {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  color: #f4f4f4;
+}
+.c-date {
+  color: #f4f4f4;
+  position: absolute;
+  top: 80%;
+  left: 36.6%;
+}
+.card-name p, .card-number p{
+  margin-bottom: -1px;
+}
+.cvv {
+  position: absolute;
+  top: 43%;
+  left: 40%;
+  color: white;
+}
