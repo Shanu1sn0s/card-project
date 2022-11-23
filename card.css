@@ -8,9 +8,15 @@
   --desktop-width: 1440px;
   --mobile-width: 375px;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background-image: url(images/bg-main-desktop.png);
   background-repeat: no-repeat;
+
 }
 .main-container {
   display:grid;
@@ -22,12 +28,12 @@ body {
 .form-wrapper {
   /* display: none; */
   padding: 50px;
-  max-width: 350px;
+  max-width: 450px;
   width: 100%;
   z-index: 99;
   position: relative;
   top: 30%;
-  left: 20%;
+  left: 10%;
 }
 .thank-you-note{
   display: none;
@@ -173,26 +179,27 @@ span {
     background-size: 600px 220px;
     background-repeat: no-repeat;
   
+  
  
   }
-  .main-container {
-   display:;
-   flex-direction:;
+  /* .main-container { */
+   /* display:;
+   flex-direction:; }*/
      
-  }
+  
 
   .cards {
     position: relative;
-    top: 80%;
+    top: 62%;
     left: 30%;
   }
   .cards img {
-    height: 8.8em;
+    height: 9.5em;
   }
   .cards .card-back {
     position: absolute;
-    left: 10%;
-    bottom:65%;
+    left: 18%;
+    bottom:50%;
     margin-top: 1.7em;
     z-index: -1;
   }
@@ -202,13 +209,58 @@ span {
     left: 0;
   }
   .card-front .logo {
-    height: 40px;
+    height: 25px;
     position: absolute;
     top: 1.5rem;
     left: 1.5rem;
   }
   
   .form-wrapper{
-    display:none;
+    /* display:none; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left:38%;
+    max-width: 90px;
+    width: 100%;
+
   }
+  span.c-input{
+    font-size: 20px;
+    margin-top: .4em;
+  }
+  
+.c-date{
+  margin-left: 6.9rem;
+  margin-top: .4rem;
+  font-size: 12px;
+
+}
+.c-name{
+font-size: 12px;
+margin-top: .4rem;
+margin-left: 1.5rem;
+}
+span.cvv{
+  font-size: 12px;
+  margin-left: 7rem;
+}
+.date {
+  display: grid;
+  grid-template-columns: 20% 20% 45%;
+  gap:29px;  
+  margin-right:0px ; 
+  position: relative;
+  left: 1%;
+}
+
+
+.field{
+  width: 90px; 
+
+  
+}
 }
