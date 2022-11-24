@@ -36,7 +36,7 @@ body {
   left: 10%;
 }
 .thank-you-note{
-  display: none;
+  display:none;
   padding: 50px;
   max-width: 350px;
   width: 100%;
@@ -216,17 +216,28 @@ span {
   }
   
   .form-wrapper{
-    /* display:none; */
-    display: grid;
+    display:grid;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     position: absolute;
     top: 40%;
     left:38%;
-    max-width: 90px;
+    max-width: 20px;
     width: 100%;
 
+  }
+  .thank-you-note{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left:5%;
+    max-width: 450px;
+    width: 100%;
+    
   }
   span.c-input{
     font-size: 20px;
@@ -249,18 +260,21 @@ span.cvv{
   margin-left: 7rem;
 }
 .date {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 20% 20% 45%;
   gap:29px;  
   margin-right:0px ; 
   position: relative;
-  left: 1%;
-}
+  left: 1%;*/
+} 
 
 
 .field{
   width: 90px; 
-
-  
+}
+ .month{
+  padding:;
+  width: %;
+  background-color: red;
 }
 }
