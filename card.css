@@ -223,7 +223,7 @@ span {
     position: absolute;
     top: 40%;
     left:38%;
-    max-width: 20px;
+    max-width: 200px;
     width: 100%;
 
   }
@@ -242,6 +242,8 @@ span {
   span.c-input{
     font-size: 20px;
     margin-top: .4em;
+    text-decoration: none;
+    
   }
   
 .c-date{
@@ -260,21 +262,21 @@ span.cvv{
   margin-left: 7rem;
 }
 .date {
-  /* display: grid;
+  display: grid;
   grid-template-columns: 20% 20% 45%;
   gap:29px;  
-  margin-right:0px ; 
+  margin:0; 
   position: relative;
-  left: 1%;*/
+  left: 1%;
 } 
 
 
 .field{
   width: 90px; 
 }
- .month{
-  padding:;
-  width: %;
-  background-color: red;
+ .month, .year{
+ width: 50px;
+  background-color:blue;
 }
+
 }
