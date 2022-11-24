@@ -7,8 +7,10 @@ const cvc = document.getElementById("cvc");
 const month = document.getElementById("month");
 const year = document.getElementById("year");
 const numbersOnly = document.getElementById("numbers-only");
-const submitForm = document.getElementById("submit")
+const thankYouNote = document.getElementById("thanks");
 
-function submit(){
-    
-}
+document.getElementById("submit").addEventListener('click', function(){
+    alert('you did it!')
+})
+
+ 
